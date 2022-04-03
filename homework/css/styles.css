@@ -1,0 +1,253 @@
+:root {
+    --background-color: #ffff;
+    --header-footer-background-color: #2F303A;
+    --hover-color: #2196F3;
+    --button-hover-color: #188CE8;
+    --headings-color: #212121;
+    --button-and-logo-color: #2196F3;
+    --inactive-button-color: #F5F4FA;
+    --active-button-color: #2196F3;
+    --paragraph-color: #757575;
+    --white-color: rgb(255, 255, 255);
+    --partly-white-color: rgba(255, 255, 255, 0.6);
+
+}
+.body{
+    color: var(--headings-color);
+    background-color: var(--white-color);
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+.logo-web {
+color: var(--button-and-logo-color);
+}
+
+.logo-link {
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;    
+}
+
+.link {
+    color: var(--headings-color);
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    letter-spacing: 2%;
+}
+
+.link:hover {
+    color: var(--hover-color);
+}
+
+.link:focus {
+    color: var(--hover-color);
+}
+
+.list-item{
+    list-style: none;
+}
+
+.mail-link{
+    color: var(--paragraph-color);
+    text-decoration: none;  
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+  
+}
+
+.mail-link:hover{
+    color: var(--hover-color);
+}
+
+.mail-link:focus {
+    color: var(--hover-color);
+}
+
+.call-link {
+    color: var(--paragraph-color);
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+
+.call-link:hover {
+    color: var(--hover-color);
+}
+
+.call-link:focus {
+    color: var(--hover-color);
+}
+
+.main-heading{
+    background-color:var(--header-footer-background-color);
+    color: var(--white-color);
+    font-size: 44px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 1.36;
+}
+
+.button-offer{
+    color: var(--white-color);
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 3%;
+    line-height: 1.63;
+    background-color: var(--button-and-logo-color);
+    border: none;
+    cursor: pointer;    
+}
+
+.button-offer:hover {
+    background-color: var(--button-hover-color);
+}
+
+.button-offer:active{
+    background-color: var(--active-button-color);
+}
+
+.extra-heading{
+    visibility: hidden;
+}
+
+.advantages-heading{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.advantages-text{
+    font-size: 14px;
+    font-weight: 400;
+    color: var(--paragraph-color);
+    line-height: 24px;
+}
+
+.second-range-heading{
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.our-team-list-heading{
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.our-team-list-description{
+    color: var(--paragraph-color);
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.logo-link-footer {
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    margin-left: 215px;
+}
+
+.address-list{
+    font-style: normal;
+    margin-top: 20px;
+    margin-left: 180px;
+}
+
+.address-item{
+    list-style: none;
+}
+
+
+
+.location-link{
+    background-color:var(--header-footer-background-color);
+    color: var(--white-color);
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.location-link:hover{
+    color: var(--hover-color);
+}
+
+.location-link:focus {
+    color: var(--hover-color);
+}
+
+.mail-link-address{
+    background-color:var(--header-footer-background-color);
+    color: var(--partly-white-color);
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.mail-link-address:hover{
+    color: var(--hover-color);
+}
+
+.mail-link-address:focus {
+    color: var(--hover-color);
+}
+
+.call-link-address{
+    background-color:var(--header-footer-background-color);
+    color: var(--partly-white-color);
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.call-link-address:hover {
+    color: var(--hover-color);
+}
+
+.call-link-address:focus {
+    color: var(--hover-color);
+}
+
+.filter-button{
+    background-color: var(--inactive-button-color);
+    color: var(--headings-color);
+    font-size: 16px;
+    font-weight: 500;
+    letter-spacing: 3%;
+    line-height: 1.63;
+    border: none;
+}
+
+.filter-button:hover {
+    background-color: var(--button-hover-color);
+    color: var(--white-color);
+}
+
+.filter-button:active{
+    background-color: var(--active-button-color);
+    color: var(--white-color);
+}
+
+.card-heading{
+    color: var(--headings-color);
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: 6%;
+    line-height: 2;
+}
+
+.card-description{
+    color: var(--paragraph-color);
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 3%;
+    line-height: 1.88;
+}
