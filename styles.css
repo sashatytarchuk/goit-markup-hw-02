@@ -1,2 +1,294 @@
-.class {
+
+.header{
+background-color: #ffff;
 }
+
+
+.logo-web {
+color: #2196F3;
+}
+
+.logo-link {
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    margin-left: 215px;
+    margin-top: 24px;
+    padding-right: 93px;
+    
+}
+
+.link {
+    color: #212121;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    text-decoration: none;
+    margin-top: 24px;
+}
+
+.link:hover {
+    color: #2196F3;
+}
+
+.link:focus {
+    color: #2196F3;
+}
+
+
+.navigation-list{
+    margin-left: 453px;
+    
+}
+
+.navigation-item{
+    display: inline-block;
+    padding-right: 50px;
+    vertical-align: top;
+}
+
+
+.mail-link{
+  text-decoration: none;  
+  font-family: Roboto;
+  font-size: 14px;
+  font-weight: 500;
+  
+}
+
+.mail-link:hover{
+    color: #2196F3;
+}
+
+.mail-link:focus {
+    color: #2196F3;
+}
+
+.call-link {
+    color: #757575;
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 500;
+    
+}
+
+.call-link:hover {
+    color: #2196F3;
+}
+
+.call-link:focus {
+    color: #2196F3;
+}
+
+.body{
+    color: #212121;
+    background-color: #ffff;
+    font-family: Roboto;
+    font-weight: 400;
+}
+
+.main-heading-section{
+    background-color: #2F303A;
+    margin-bottom: 0;
+}
+
+.main-heading{
+    color: #ffff;
+    font-size: 44px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 60px;
+    padding-top: 200px;
+    letter-spacing:normal;
+}
+
+.button-offer{
+    color: #ffff;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 30px;
+    margin-left: 43%;
+    margin-bottom: 200px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 32px;
+    padding-right: 32px;
+    background-color: #2196F3;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+
+.button-offer:hover {
+background-color: #188CE8;
+}
+
+
+
+
+.extra-heading{
+    visibility: hidden;
+}
+
+.list{
+ text-align: left;
+ margin-left: 120px;
+ margin-top: 94px;
+
+}
+
+.list-item{
+    list-style: none;
+    display: inline-block;
+    margin-right: 30px;
+    
+}
+
+.advantages-heading{
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.advantages-text{
+    font-size: 14px;
+    font-weight: 400;
+    color: #757575;
+    margin-top: 10px;
+    line-height: 24px;
+    margin-bottom: 94px;
+}
+
+.second-range-heading{
+    font-size: 36px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.list-item_competention-section{
+    list-style: none;
+    display: inline-block;
+    align-content: center;
+    margin-top: 50px;
+    padding-right: 30px ;
+}
+.our-competention-list{
+    margin-left: 50px;
+    margin-bottom: 94px;
+}
+
+.our-team-section{
+    background-color: #F5F4FA;
+    padding-top: 94px;
+}
+
+.our-team-list{
+    margin-left: 30px;
+    margin-top: 50px;
+}
+
+.list-item-our-team-section{
+    background-color: #ffff;
+    display: inline-block;
+    margin-right: 30px;
+    margin-bottom: 94px;
+}
+
+.our-team-list-heading{
+    font-size: 16px;
+    font-weight: 500;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.our-team-list-description{
+    color: #757575;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.footer{
+    background-color: #2F303A;
+    padding-top: 60px;
+    margin-top: 0;
+}
+.logo-link-footer {
+    text-decoration: none;
+    font-family: Raleway;
+    font-size: 26px;
+    font-weight: 700;
+    margin-left: 215px;
+}
+
+.address{
+    padding-bottom: 60px;
+}
+
+.address-list{
+    font-style: normal;
+    margin-top: 20px;
+    margin-left: 180px;
+}
+
+.address-item{
+    list-style: none;
+    margin-top: 9px;
+
+}
+
+
+
+.location-link{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.location-link:hover{
+    color:#188CE8
+}
+
+.location-link:focus {
+    color: #188CE8
+}
+
+.mail-link-address{
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.mail-link-address:hover{
+    color:#188CE8
+}
+
+.mail-link-address:focus {
+    color: #188CE8
+}
+
+.call-link-address{
+    color: rgba(255, 255, 255, 0.6);
+    text-decoration: none;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.call-link-address:hover {
+    color: #188CE8
+}
+
+.call-link-address:focus {
+    color: #188CE8
+}
+
