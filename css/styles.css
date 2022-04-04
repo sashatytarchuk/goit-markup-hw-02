@@ -124,7 +124,6 @@ color: var(--button-and-logo-color);
 
 .advantages-text{
     font-size: 14px;
-    font-weight: 400;
     color: var(--paragraph-color);
     line-height: 24px;
 }
@@ -142,7 +141,6 @@ color: var(--button-and-logo-color);
 .our-team-list-description{
     color: var(--paragraph-color);
     font-size: 16px;
-    font-weight: 400;
 }
 
 .logo-link-footer {
