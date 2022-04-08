@@ -10,33 +10,40 @@
     --paragraph-color: #757575;
     --white-color: rgb(255, 255, 255);
     --partly-white-color: rgba(255, 255, 255, 0.6);
+    --logo-black-color: #000000;
 
 }
-.body{
-    color: var(--headings-color);
+body{
+    color: var(--paragraph-color);
     background-color: var(--white-color);
-    font-family: Roboto;
-    font-weight: 400;
+    font-family: Roboto, sans-serif;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 .logo-web {
 color: var(--button-and-logo-color);
+line-height: 1.19;
+letter-spacing: 0.03em;
 }
 
 .logo-link {
+    color: var(--logo-black-color);
     text-decoration: none;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 26px;
-    font-weight: 700;    
+    font-weight: 700;   
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
 .link {
     color: var(--headings-color);
-    font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
     text-decoration: none;
-    letter-spacing: 2%;
+    letter-spacing: 0.02em;
+    line-height: 1.14;
 }
 
 .link:hover {
@@ -54,9 +61,10 @@ color: var(--button-and-logo-color);
 .mail-link{
     color: var(--paragraph-color);
     text-decoration: none;  
-    font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.14;
   
 }
 
@@ -71,9 +79,10 @@ color: var(--button-and-logo-color);
 .call-link {
     color: var(--paragraph-color);
     text-decoration: none;
-    font-family: Roboto;
     font-size: 14px;
     font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 1.14;
     
 }
 
@@ -92,14 +101,19 @@ color: var(--button-and-logo-color);
     font-weight: 900;
     text-align: center;
     line-height: 1.36;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
 }
 
 .button-offer{
     color: var(--white-color);
     font-size: 16px;
     font-weight: 700;
-    letter-spacing: 3%;
-    line-height: 1.63;
+    letter-spacing: 0.06em;
+    line-height: 1.88;
+    display: flex;
+    align-items: center;
+    text-align: center;
     background-color: var(--button-and-logo-color);
     border: none;
     cursor: pointer;    
@@ -118,58 +132,72 @@ color: var(--button-and-logo-color);
 }
 
 .advantages-heading{
+    color: var(--headings-color);
     font-size: 14px;
+    line-height: 1.14;
     font-weight: 700;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 }
 
 .advantages-text{
     font-size: 14px;
     color: var(--paragraph-color);
     line-height: 24px;
+    letter-spacing: 0.03em;
 }
 
 .second-range-heading{
+    color: var(--headings-color);
     font-size: 36px;
     font-weight: 700;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .our-team-list-heading{
+    color: var(--headings-color);
     font-size: 16px;
     font-weight: 500;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .our-team-list-description{
-    color: var(--paragraph-color);
     font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .logo-link-footer {
+    background-color:var(--header-footer-background-color);
+    color: var(--white-color);
     text-decoration: none;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 26px;
     font-weight: 700;
-    margin-left: 215px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
 .address-list{
     font-style: normal;
-    margin-top: 20px;
-    margin-left: 180px;
 }
 
 .address-item{
     list-style: none;
 }
 
-
-
 .location-link{
     background-color:var(--header-footer-background-color);
     color: var(--white-color);
     text-decoration: none;
-    font-family: Roboto;
     font-size: 14px;
-    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 .location-link:hover{
@@ -184,9 +212,9 @@ color: var(--button-and-logo-color);
     background-color:var(--header-footer-background-color);
     color: var(--partly-white-color);
     text-decoration: none;
-    font-family: Roboto;
     font-size: 14px;
-    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 .mail-link-address:hover{
@@ -201,9 +229,9 @@ color: var(--button-and-logo-color);
     background-color:var(--header-footer-background-color);
     color: var(--partly-white-color);
     text-decoration: none;
-    font-family: Roboto;
     font-size: 14px;
-    font-weight: 400;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 .call-link-address:hover {
@@ -219,12 +247,19 @@ color: var(--button-and-logo-color);
     color: var(--headings-color);
     font-size: 16px;
     font-weight: 500;
-    letter-spacing: 3%;
     line-height: 1.63;
-    border: none;
+    border: none;    
+    text-align: center;
+    letter-spacing: 0.03em;
+    cursor: pointer;
 }
 
 .filter-button:hover {
+    background-color: var(--button-hover-color);
+    color: var(--white-color);
+}
+
+.filter-button:focus {
     background-color: var(--button-hover-color);
     color: var(--white-color);
 }
@@ -238,14 +273,12 @@ color: var(--button-and-logo-color);
     color: var(--headings-color);
     font-size: 18px;
     font-weight: 700;
-    letter-spacing: 6%;
     line-height: 2;
+    letter-spacing: 0.06em;
 }
 
 .card-description{
-    color: var(--paragraph-color);
     font-size: 16px;
-    font-weight: 400;
-    letter-spacing: 3%;
     line-height: 1.88;
+    letter-spacing: 0.03em;
 }
